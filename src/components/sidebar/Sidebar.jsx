@@ -28,7 +28,7 @@ export default function Sidebar() {
            
             <li className="sidebarListItem active">
               <LineStyle className="sidebarIcon" />
-              <Link to='/'>Home</Link>
+              <Link to='/' className="link">Home</Link>
               
             </li>
            
@@ -48,13 +48,14 @@ export default function Sidebar() {
            
               <li className="sidebarListItem">
                 <PermIdentity className="sidebarIcon" />
-                <Link to='/users'>Users</Link> 
+                <Link to='/users' className="link">Users</Link> 
               </li>
            
            
               <li className="sidebarListItem">
                 <Storefront className="sidebarIcon" />
-                Products
+                <Link to='/products' className="link">Products</Link>
+                
               </li>
             
             <li className="sidebarListItem">
