@@ -69,7 +69,7 @@ export default function Sidebar() {
           </ul>
         </div>
         <div className="sidebarMenu">
-          <h3 className="sidebarTitle">Notifications</h3>
+          <h3 className="sidebarTitle">Notification</h3>
           <ul className="sidebarList">
             <li className="sidebarListItem">
               <MailOutline className="sidebarIcon" />
